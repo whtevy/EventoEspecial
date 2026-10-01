@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#6b4938">
+  <meta name="description" content="Convite do Chá Revelação de Evelyn e Luiz. Dois pequenos corações estão a caminho!">
+  <title>Chá Revelação | Evelyn & Luiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="floating-bear bear-left">🧸</div>
+    <div class="floating-bear bear-right">🧸</div>
+
+    <div class="hero-card">
+      <p class="tiny">UM AMOR ESTÁ CHEGANDO</p>
+
+      <div class="twin-bears" aria-hidden="true">
+        <span>🧸</span>
+        <span>🧸</span>
+      </div>
+
+      <p class="eyebrow">Chá Revelação</p>
+
+      <h1>Dois pequenos<br><em>corações</em> estão a caminho...</h1>
+
+      <div class="divider">
+        <i></i>
+        <span>♡</span>
+        <i></i>
+      </div>
+
+      <p class="parents">Evelyn &amp; Luiz</p>
+      <p class="parents-message">Mamãe e papai estão muito felizes com a nossa chegada. 🤎</p>
+
+      <a class="main-button" href="#confirmacao">Confirmar presença</a>
+
+      <div class="scroll-hint">role para descobrir <span>↓</span></div>
+    </div>
+  </header>
+
+  <main>
+<section class="section event reveal" id="evento">
+      <div class="section-heading">
+        <span class="section-label">ANOTE NA AGENDA</span>
+        <h2>Nosso grande dia</h2>
+        <p>Queremos muito compartilhar esse momento especial com você.</p>
+      </div>
+
+      <div class="date-card">
+        <div class="date-icon">♡</div>
+        <p class="date-weekday">SÁBADO</p>
+        <p class="date-day">14</p>
+        <p class="date-month">NOVEMBRO · 2026</p>
+        <div class="date-divider"></div>
+        <p class="date-time">ÀS 16:00</p>
+      </div>
+    </section>
+<section class="section location reveal" id="local">
+      <div class="section-heading">
+        <span class="section-label">ONDE SERÁ</span>
+        <h2>Local do evento</h2>
+      </div>
+
+      <div class="location-card">
+        <div class="location-icon">⌖</div>
+        <p class="location-title">Chá Revelação</p>
+        <p>R. Ver. Ludovico Gondek, 1974</p>
+        <p>Rio Abaixinho · Araucária - PR</p>
+        <p>CEP 83724-899</p>
+
+        <a class="outline-button" href="https://maps.app.goo.gl/pUcBUokzWRBSs1sN9" target="_blank" rel="noopener noreferrer">
+          Abrir no Google Maps
+        </a>
+      </div>
+    </section>
+
+    <section class="section gifts reveal" id="presentes">
+      <div class="section-heading">
+        <span class="section-label">COM CARINHO</span>
+        <h2>Sugestão de presentes</h2>
+        <p>Se quiser nos presentear, separamos algumas ideias para os nossos dois pequenos.</p>
+      </div>
+
+      <div class="gift-grid">
+        <article class="gift-card">
+          <div class="gift-icon">🎁</div>
+          <h3>Fraldas</h3>
+          <p> + Mimos!! 🤎</p>
+        </article>
+      </div>
+
+      <div class="gift-note">
+        <span>♡</span>
+        <p>O mais importante para nós é ter você presente nesse momento tão especial.</p>
+      </div>
+    </section>
+
+    <section class="section confirm reveal" id="confirmacao">
+      <div class="section-heading">
+        <span class="section-label">ESPERAMOS VOCÊ</span>
+        <h2>Confirme sua presença</h2>
+        <p>Preencha seus dados para nos ajudar a organizar tudo com muito carinho.</p>
+        <p class="confirmation-deadline">Confirme sua presença até <strong>30/10/2026</strong>.</p>
+      </div>
+
+      <form class="form-card" id="rsvpForm">
+        <label for="nome">Seu nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required maxlength="120">
+
+        <label for="telefone">WhatsApp</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(41) 99999-9999" required maxlength="20">
+
+        <label for="presenca">Você poderá comparecer?</label>
+        <select id="presenca" name="presenca" required>
+          <option value="">Selecione</option>
+          <option value="Sim">Sim, estarei presente! 🤎</option>
+          <option value="Não">Não poderei comparecer</option>
+        </select>
+
+        <label for="acompanhantes">Quantidade de acompanhantes</label>
+        <select id="acompanhantes" name="acompanhantes">
+          <option value="0">Somente eu</option>
+          <option value="1">+ 1 acompanhante</option>
+          <option value="2">+ 2 acompanhantes</option>
+          <option value="3">+ 3 acompanhantes</option>
+          <option value="4">+ 4 acompanhantes</option>
+        </select>
+
+        <button type="submit" class="main-button full">Enviar confirmação</button>
+        <p class="form-message" id="formMessage" role="status"></p>
+      </form>
+    </section>
+
+    <section class="section final-message reveal">
+      <div class="final-bears" aria-hidden="true">🧸 ♡ 🧸</div>
+      <h2>Dois pequenos corações,<br>um amor que não cabe no peito.</h2>
+      <p>Com carinho,<br><strong>Evelyn &amp; Luiz</strong> 🤎</p>
+    </section>
+
+  </main>
+
+  <footer>
+    Feito com muito amor para celebrar a chegada dos nossos dois pequenos. 🤎
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
