@@ -10,4 +10,4 @@
 */
 
 const SUPABASE_URL = "https://wotxdrzjpxbnfoxeperp.supabase.co";
-const SUPABASE_ANON_KEY = "sb_secret_AG3LmSvwn1lZBeCozWJBAA_oWfpjzQD";
+const SUPABASE_ANON_KEY = "sb_publishable_yp7-hOpPKZMNZlQelw0Wzw_x-rcGQiB";
